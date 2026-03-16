@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+*.log
+npm-debug.log*
+
+# Temporal/Artifacts
+medicare_full_project.zip
+medicare_source_code.zip
+medicare_code_v1.zip

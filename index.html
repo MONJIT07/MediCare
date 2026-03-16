@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="MediCare+ - Premium Healthcare At Your Fingertips. Book appointments with certified specialists, access 24/7 healthcare support, and manage your health seamlessly."/>
+  <title>MediCare+ | Premium Healthcare At Your Fingertips</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <div class="logo-icon">
+          <i class="fas fa-heartbeat"></i>
+        </div>
+        <div class="logo-text">
+          <span class="logo-medi">Medi</span><span class="logo-care">Care</span><span class="logo-plus">+</span>
+          <small>Healthcare Solutions</small>
+        </div>
+      </div>
+
+      <div class="nav-pill">
+        <a href="#home" class="nav-link active" id="link-home">Home</a>
+        <a href="#doctors" class="nav-link" id="link-doctors">Doctors</a>
+        <a href="#services" class="nav-link" id="link-services">Services</a>
+        <a href="#appointments" class="nav-link" id="link-appointments">Appointments</a>
+        <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+        <div class="nav-indicator"></div>
+      </div>
+
+      <div class="nav-actions">
+        <button class="btn-admin" id="btn-admin">
+          <i class="fas fa-user-shield"></i> Doctor Admin
+        </button>
+        <button class="btn-login" id="btn-login">
+          <i class="fas fa-key"></i> Login
+        </button>
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#doctors" class="mobile-link">Doctors</a>
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#appointments" class="mobile-link">Appointments</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  
+  <section class="hero" id="home">
+    <div class="hero-bg-dots"></div>
+    <div class="container">
+      <div class="hero-card">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <div class="badge-icon"><i class="fas fa-stethoscope"></i></div>
+            <span>MediCare+</span>
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <h1 class="hero-title">
+            Premium Healthcare<br/>
+            <span class="text-green">At Your Fingertips</span>
+          </h1>
+          <div class="hero-features">
+            <div class="feature-pill"><i class="fas fa-award"></i> Certified Specialists</div>
+            <div class="feature-pill"><i class="fas fa-clock"></i> 24/7 Availability</div>
+            <div class="feature-pill"><i class="fas fa-shield-alt"></i> Safe &amp; Secure</div>
+            <div class="feature-pill"><i class="fas fa-user-md"></i> 500+ Doctors</div>
+          </div>
+          <div class="hero-buttons">
+            <button class="btn-primary" onclick="document.getElementById('appointments').scrollIntoView({behavior:'smooth'})">
+              <i class="fas fa-calendar-check"></i> Book Appointment Now
+            </button>
+            <a href="tel:+918638505906" class="btn-emergency" style="text-decoration:none">
+              <i class="fas fa-phone-alt"></i> Emergency Call
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="doctors_team.png" alt="Professional Medical Team at MediCare+" />
+          <div class="hero-badge-float badge-patients">
+            <i class="fas fa-users"></i>
+            <div>
+              <strong>50K+</strong>
+              <small>Happy Patients</small>
+            </div>
+          </div>
+          <div class="hero-badge-float badge-experience">
+            <i class="fas fa-trophy"></i>
+            <div>
+              <strong>15+</strong>
+              <small>Years Experience</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="trust-section">
+    <div class="container">
+      <div class="trust-badges">
+        <div class="trust-badge"><i class="fas fa-certificate"></i> Government Approved</div>
+        <div class="trust-divider"></div>
+        <div class="trust-badge"><i class="fas fa-medal"></i> NABH Accredited</div>
+        <div class="trust-divider"></div>
+        <div class="trust-badge"><i class="fas fa-shield-virus"></i> ISO 9001:2015</div>
+        <div class="trust-divider"></div>
+        <div class="trust-badge"><i class="fas fa-star"></i> 4.9/5 Rated</div>
+        <div class="trust-divider"></div>
+        <div class="trust-badge"><i class="fas fa-hospital"></i> 20+ Departments</div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #10b981, #059669)">
+            <i class="fas fa-user-md"></i>
+          </div>
+          <h3 class="stat-number" data-target="500">0</h3>
+          <p>Expert Doctors</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8)">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="stat-number" data-target="50000">0</h3>
+          <p>Happy Patients</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed)">
+            <i class="fas fa-hospital-alt"></i>
+          </div>
+          <h3 class="stat-number" data-target="20">0</h3>
+          <p>Departments</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706)">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <h3 class="stat-number" data-target="100000">0</h3>
+          <p>Appointments Done</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="doctors">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Team</span>
+        <h2 class="section-title">Meet Our <span class="text-green">Expert Doctors</span></h2>
+        <p class="section-desc">Our team of world-class specialists provides personalized care and cutting-edge treatments for every patient.</p>
+      </div>
+
+      <div class="doctors-search">
+        <div class="search-wrapper">
+          <i class="fas fa-search"></i>
+          <input type="text" id="doctor-search" placeholder="Search by name or specialization..." oninput="filterDoctors()" />
+        </div>
+      </div>
+
+      <div class="doctors-grid" id="doctors-grid">
+        
+      </div>
+      <div class="no-results" id="no-results" style="display:none">
+        <i class="fas fa-user-md"></i>
+        <p>No doctors found. Try a different search.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Safe, Accurate &amp; <span class="text-green">Reliable</span></h2>
+        <p class="section-desc">Comprehensive medical services across 20+ specializations with state-of-the-art diagnostic equipment and compassionate care.</p>
+      </div>
+      <div class="services-grid" id="services-grid">
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="appointments">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Book Now</span>
+        <h2 class="section-title">Schedule an <span class="text-green">Appointment</span></h2>
+        <p class="section-desc">Fill in the form below and our team will confirm your appointment within 24 hours.</p>
+      </div>
+      <div class="appointment-wrapper">
+        <div class="appointment-form-card">
+          <form id="appointment-form" onsubmit="submitAppointment(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="fas fa-user"></i> Full Name</label>
+                <input type="text" id="apt-name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="apt-email" placeholder="example@gmail.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="fas fa-phone"></i> Phone Number</label>
+                <input type="tel" id="apt-phone" placeholder="1234567890" required />
+              </div>
+              <div class="form-group">
+                <label><i class="fas fa-hospital-alt"></i> Department</label>
+                <select id="apt-dept" required>
+                  <option value="">Select Department</option>
+                  <option>Cardiology</option>
+                  <option>Neurology</option>
+                  <option>Orthopedics</option>
+                  <option>Pediatrics</option>
+                  <option>Dermatology</option>
+                  <option>Ophthalmology</option>
+                  <option>Oncology</option>
+                  <option>Gynecology</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="fas fa-calendar"></i> Preferred Date</label>
+                <input type="date" id="apt-date" required />
+              </div>
+              <div class="form-group">
+                <label><i class="fas fa-clock"></i> Preferred Time</label>
+                <select id="apt-time" required>
+                  <option value="">Select Time Slot</option>
+                  <option>9:00 AM - 10:00 AM</option>
+                  <option>10:00 AM - 11:00 AM</option>
+                  <option>11:00 AM - 12:00 PM</option>
+                  <option>2:00 PM - 3:00 PM</option>
+                  <option>3:00 PM - 4:00 PM</option>
+                  <option>4:00 PM - 5:00 PM</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group full-width">
+              <label><i class="fas fa-comment-medical"></i> Describe Your Concern</label>
+              <textarea id="apt-concern" placeholder="Briefly describe your symptoms or reason for visit..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-primary w-full">
+              <i class="fas fa-calendar-check"></i> Book Appointment
+            </button>
+          </form>
+        </div>
+        <div class="appointment-info">
+          <div class="apt-info-card">
+            <i class="fas fa-clock text-green" style="font-size:2rem;margin-bottom:0.75rem;display:block"></i>
+            <h3>Clinic Hours</h3>
+            <p>Monday - Saturday<br/><strong>9:00 AM – 6:00 PM</strong></p>
+            <p style="margin-top:0.5rem">Sunday<br/><strong>Emergency Only</strong></p>
+          </div>
+          <div class="apt-info-card">
+            <i class="fas fa-phone-alt text-green" style="font-size:2rem;margin-bottom:0.75rem;display:block"></i>
+            <h3>Emergency Contact</h3>
+            <p><strong style="font-size:1.2rem;color:#10b981">+91 86385 05906</strong></p>
+            <p style="margin-top:0.5rem;color:#6b7280">Monjit Tamuli — Available 24/7</p>
+          </div>
+          <div class="apt-info-card">
+            <i class="fas fa-map-marker-alt text-green" style="font-size:2rem;margin-bottom:0.75rem;display:block"></i>
+            <h3>Visit Our Clinic</h3>
+            <p>NIT Silchar, Cachar<br/>Assam 788010, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section section-alt" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">Voices of <span class="text-green">Trust</span></h2>
+        <p class="section-desc">What our patients say about their experience with MediCare+</p>
+      </div>
+      <div class="testimonials-grid" id="testimonials-grid">
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="text-green">Our Clinic</span></h2>
+        <p class="section-desc">Fill the form — we'll open WhatsApp so you can connect with us instantly.</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-form-card">
+          <form id="contact-form" onsubmit="submitContact(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="fas fa-user"></i> Full Name</label>
+                <input type="text" id="ct-name" placeholder="Full Name" required/>
+              </div>
+              <div class="form-group">
+                <label><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="ct-email" placeholder="example@gmail.com" required/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="fas fa-phone"></i> Phone</label>
+                <input type="tel" id="ct-phone" placeholder="1234567890" required/>
+              </div>
+              <div class="form-group">
+                <label><i class="fas fa-hospital-alt"></i> Department</label>
+                <select id="ct-dept">
+                  <option value="">Select Department</option>
+                  <option>Cardiology</option><option>Neurology</option>
+                  <option>Orthopedics</option><option>Pediatrics</option>
+                  <option>Dermatology</option><option>General Medicine</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group full-width">
+              <label><i class="fas fa-concierge-bell"></i> Service</label>
+              <select id="ct-service">
+                <option value="">Select Service (or choose Department above)</option>
+                <option>General Checkup</option><option>Lab Tests</option>
+                <option>X-Ray / MRI</option><option>Surgery Consultation</option>
+                <option>Emergency Care</option><option>Physiotherapy</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label><i class="fas fa-comment"></i> Message</label>
+              <textarea id="ct-msg" placeholder="Describe your concern briefly..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-primary w-full">
+              <i class="fab fa-whatsapp"></i> Send via WhatsApp
+            </button>
+          </form>
+        </div>
+        <div class="contact-info-panel">
+          <div class="contact-info-card">
+            <h3><i class="fas fa-user-md text-green" style="margin-right:0.4rem"></i>Contact Us</h3>
+            <p><i class="fas fa-user text-green"></i> <strong>Monjit Tamuli</strong></p>
+            <p><i class="fas fa-phone text-green"></i> <a href="tel:+918638505906" style="color:inherit;text-decoration:none;font-weight:600">+91 86385 05906</a></p>
+            <p><i class="fab fa-whatsapp" style="color:#25d366"></i> <a href="https://wa.me/918638505906" target="_blank" style="color:inherit;text-decoration:none;font-weight:600">WhatsApp Us</a></p>
+            <p><i class="fas fa-envelope text-green"></i> monjit@medicare.com</p>
+          </div>
+          <div class="map-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.1537243916053!2d92.79!3d24.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e49d685555555%3A0x6d9f75f92d4f29ae!2sNIT%20Silchar!5e0!3m2!1sen!2sin!4v1234567890123"
+              width="100%" height="220" style="border:0;border-radius:12px" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="clinic-hours-card">
+            <h3><i class="fas fa-clock text-green"></i> Clinic Hours</h3>
+            <p><strong>Mon - Sat:</strong> 9:00 AM – 6:00 PM</p>
+            <p><strong>Sunday:</strong> Emergency Only</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="logo-icon small"><i class="fas fa-heartbeat"></i></div>
+            <span class="logo-medi">Medi</span><span class="logo-care">Care</span><span class="logo-plus">+</span>
+          </div>
+          <p>Delivering premium healthcare solutions with compassion and cutting-edge technology. Your health is our priority.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#doctors">Doctors</a>
+          <a href="#services">Services</a>
+          <a href="#appointments">Appointments</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Departments</h4>
+          <a href="#">Cardiology</a>
+          <a href="#">Neurology</a>
+          <a href="#">Orthopedics</a>
+          <a href="#">Pediatrics</a>
+          <a href="#">Oncology</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <p><i class="fas fa-user"></i> Monjit Tamuli</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+918638505906" style="color:rgba(255,255,255,0.7);text-decoration:none">+91 86385 05906</a></p>
+          <p><i class="fab fa-whatsapp" style="color:#25d366"></i> <a href="https://wa.me/918638505906" target="_blank" style="color:rgba(255,255,255,0.7);text-decoration:none">WhatsApp</a></p>
+          <p><i class="fas fa-envelope"></i> monjit@medicare.com</p>
+          <p><i class="fas fa-clock"></i> Mon-Sat: 9AM–6PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 MediCare+ — Monjit Tamuli. All rights reserved.</p>
+        <p>Built with <i class="fas fa-heart text-green"></i> for better healthcare</p>
+      </div>
+    </div>
+  </footer>
+
+  
+  <div class="toast" id="toast"></div>
+
+  
+  <button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  
+  <div class="modal-overlay" id="login-modal">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal('login-modal')"><i class="fas fa-times"></i></button>
+      <div class="modal-header">
+        <div class="logo-icon"><i class="fas fa-heartbeat"></i></div>
+        <h2>Welcome Back</h2>
+        <p>Sign in to your MediCare+ account</p>
+      </div>
+      <form id="login-form" onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label><i class="fas fa-envelope"></i> Email</label>
+          <input type="email" id="login-email" placeholder="your@email.com" required/>
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-lock"></i> Password</label>
+          <input type="password" id="login-password" placeholder="••••••••" required/>
+        </div>
+        <div style="margin-bottom:1rem;font-size:0.8rem;color:#6b7280;background:#f0fdf4;padding:0.75rem;border-radius:8px;border-left:3px solid #10b981">
+          <strong>Demo Admin:</strong> admin@medicare.com / admin123
+        </div>
+        <button type="submit" class="btn-primary w-full">
+          <i class="fas fa-sign-in-alt"></i> Sign In
+        </button>
+      </form>
+      <p style="text-align:center;margin-top:1rem;color:#6b7280">Don't have an account? <a href="#" onclick="closeModal('login-modal');openModal('register-modal');return false;" style="color:#10b981;font-weight:600">Register</a></p>
+    </div>
+  </div>
+
+  
+  <div class="modal-overlay" id="register-modal">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal('register-modal')"><i class="fas fa-times"></i></button>
+      <div class="modal-header">
+        <div class="logo-icon"><i class="fas fa-user-plus"></i></div>
+        <h2>Create Account</h2>
+        <p>Join MediCare+ as a patient</p>
+      </div>
+      <form id="register-form" onsubmit="handleRegister(event)">
+        <div class="form-group">
+          <label><i class="fas fa-user"></i> Full Name</label>
+          <input type="text" id="reg-name" placeholder="John Doe" required/>
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-envelope"></i> Email</label>
+          <input type="email" id="reg-email" placeholder="your@email.com" required/>
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-phone"></i> Phone</label>
+          <input type="tel" id="reg-phone" placeholder="1234567890"/>
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-lock"></i> Password</label>
+          <input type="password" id="reg-password" placeholder="Min. 6 characters" required minlength="6"/>
+        </div>
+        <button type="submit" class="btn-primary w-full" style="margin-top:0.5rem">
+          <i class="fas fa-user-plus"></i> Create Account
+        </button>
+      </form>
+      <p style="text-align:center;margin-top:1rem;color:#6b7280">Already have an account? <a href="#" onclick="closeModal('register-modal');openModal('login-modal');return false;" style="color:#10b981;font-weight:600">Sign In</a></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

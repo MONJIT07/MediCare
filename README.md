@@ -40,47 +40,6 @@ MediCare+ is a premium, full-stack hospital management platform designed to brid
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js installed on your machine.
-- MongoDB Atlas account (or local MongoDB).
-- Gmail App Password (for email alerts).
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/MONJIT07/MediCare.git
-   cd MediCare
-   ```
-
-2. **Install Backend Dependencies:**
-   ```bash
-   cd backend
-   npm install
-   ```
-
-3. **Configure Environment Variables:**
-   Create a `.env` file in the `backend/` folder and add:
-   ```env
-   PORT=5000
-   MONGO_URI=your_mongodb_atlas_connection_string
-   JWT_SECRET=your_secret_key
-   EMAIL_USER=your_gmail@gmail.com
-   EMAIL_PASS=your_gmail_app_password
-   FRONTEND_URL=your_vercel_url or http://localhost:5000
-   ```
-
-4. **Run the Server:**
-   ```bash
-   node server.js
-   ```
-
-5. **Launch Frontend:**
-   Simply open `index.html` in your browser.
-
----
 
 ## 📍 Location
 **MediCare+ Clinic**  
@@ -96,5 +55,3 @@ Assam 788010, India
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -51,8 +51,8 @@ MediCare+ is a premium, full-stack hospital management platform designed to brid
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/medicare-plus.git
-   cd medicare-plus
+   git clone https://github.com/MONJIT07/MediCare.git
+   cd MediCare
    ```
 
 2. **Install Backend Dependencies:**
@@ -69,7 +69,7 @@ MediCare+ is a premium, full-stack hospital management platform designed to brid
    JWT_SECRET=your_secret_key
    EMAIL_USER=your_gmail@gmail.com
    EMAIL_PASS=your_gmail_app_password
-   FRONTEND_URL=http://localhost:5000
+   FRONTEND_URL=your_vercel_url or http://localhost:5000
    ```
 
 4. **Run the Server:**

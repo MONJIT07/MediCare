@@ -2,7 +2,7 @@
 
 MediCare+ is a premium, full-stack hospital management platform designed to bridge the gap between patients and healthcare providers. It features a stunning, responsive frontend, a robust Node.js backend, and a comprehensive admin dashboard for seamless operation.
 
-🚀 **Live Demo:** [https://medicare-plus-one.vercel.app](https://medicare-plus-one.vercel.app)
+🚀 **Live Demo:**  https://medicare-plus-one.vercel.app
 
 ---
 

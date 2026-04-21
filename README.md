@@ -61,23 +61,6 @@ MediCare+ is a premium, full-stack hospital management platform designed to brid
 
 ---
 
-## 📍 Location
-
-**MediCare+ Clinic**
-NIT Silchar, Cachar
-Assam 788010, India
-
----
-
-## 👨‍💻 Author
-
-**Monjit Tamuli**
-*Full Stack Developer*
-
-📧 Email: [monjiittamuli7747@gmail.com](mailto:monjiittamuli7747@gmail.com)
-📱 WhatsApp: https://wa.me/918638505906
-
----
 
 ## 🚀 Future Enhancements
 
